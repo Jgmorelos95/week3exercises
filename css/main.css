@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+}
+.navigation{
+	text-align:center;
+	background-color:aqua;
+	height:80px;
+}
+.navigation ul{
+	margin:0 85px;
+}
+.navigation li{
+	display:inline-block;
+	margin:20px 50px;
+	padding:5px;
+	color:black;
+	font-size:20px;
+	border:2px;
+	border-color:black;
+}
+li:hover{
+	background-color:red;
+	transition:0.5s ease;
+	font-size:25px;
+	color:blue;
+}
